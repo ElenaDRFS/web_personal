@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonnight</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../Imágenes/nn.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+</head>
+<header>
+    <nav>
+        <a href="../index.html" > <img id="Moonnight" src="../Imágenes/logo moonngith sin fondo.png" alt="Logo Moonnight"></a>
+        <a href="./biografia.html">Sobre mí </a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="#">Contacto</a>
+        <a href="./diccionario.html">Diccionario</a>
+    </nav>
+</header>
+<body>
+    <h1>Contacto</h1>
+    <section>
+    <form onsubmit="imprimirConsole(event)"  action="#" id="basedform">
+        <fieldset>
+            <legend>Rellena el siguiente formulario y nos pondremos en contacto contigo</legend>
+            <label for="name">Nombre </label> 
+            <input type="text" id="name" placeholder="Indica tu nombre" autofocus required> <br>
+        
+            <label for="surname">Apellidos </label>
+            <input type="text" id="surname" placeholder="Indica tu apellido" required> <br>
+
+            <label for="edad"> Edad </label>
+            <input id="edad" type="number" min="0" max="#" placeholder="Meses" required> <br>
+            
+            <label for="fname">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Introduce email..." required>
+
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="date"> <br>
+
+            <label for="descripción">
+                <textarea name="descripción" id="descripción" cols="20" rows="10" placeholder="Cuéntame un poco más"></textarea>
+            </label>
+        </fieldset>
+        
+        <input class="button" type="submit" value="Enviar">
+     
+    
+     </form>
+    
+    </section>
+
+    <footer>
+        <h3 id="footerletra" >Asesora de sueño certificada por:</h3>
+        
+        <dl id="footer_list">
+            <dd><a href="Imágenes/sello_grande.png">Centro de Estudios de Sueño Infantil</a> </dd>
+            <dd><a href="Imágenes/Logo PDA.png">Positive Discipline Association</a></p></dd>
+        </dl>
+        
+        <img id="pie" src="../Imágenes/nn.png" alt="logo">
+
+        
+    </footer>
+
+<script src="../script.js"></script>
+</body>
+
+
+</html>
