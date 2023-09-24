@@ -28,6 +28,7 @@ h2{
 
 h3 {
     color: purple;
+    font-size: small;
 }
 
  /* HOME */
@@ -153,7 +154,66 @@ ul {
 
 }
 
- 
+ /* PORTFOLIO*/
+
+ #section-media {
+    text-align: center;
+    background-color: #D4C5E2;
+    height: 300px;
+    margin-top: 5%;
+    padding-top: 2%;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+ }
+
+ .image, .video {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    margin-top: 5%;
+    
+ }
+
+.image{
+    height: 80px;
+}
+
+ .media-image {
+   
+    padding-top: 40px;
+    
+ }
+
+
+/* ESTO ES PARA EL MEDIA QUERIES DE PANTALLA GRANDE
+#section-audios {
+    background-color: #D4C5E2;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5%;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    
+
+
+} */
+
+#section-audios {
+    background-color: #D4C5E2;
+    border-radius: 12%;
+    display: block;
+    padding-top: 1.5%;
+    margin-top: 7%;
+    text-align: center;
+
+
+
+}
+
 
 
 /*DICCIONARIO*/  
@@ -180,10 +240,7 @@ tr, th, td {
     text-align: left;
     vertical-align: top;
     border: 1px solid #000;
-    
-    
-
-
+   
 }
 
 #tabledata {
