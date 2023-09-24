@@ -22,6 +22,8 @@ h2{
     font-family: 'Abril Fatface';
     font-style: oblique;
     font-size: medium;
+    
+    
 }
 
 h3 {
@@ -108,12 +110,14 @@ textarea {
 aside {
     display: flex;
     justify-content: center;
+    
  }
 
 #elena {
     width: 50%;
     height: 80%;
     border-radius: 30%;
+    
     
 }
 
@@ -132,12 +136,20 @@ ul {
 } 
 
 #love {
-    background-image: url(./Imágenes/);
+    background-image: url(./Imágenes/corazon.png);
     padding-left: 2rem;
     background-position: 0 0;
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
 
+}
+
+#graduation {
+    background-image: url(./Imágenes/graduacion.jpg);
+    padding-left: 2rem;
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
 
 }
 
@@ -145,6 +157,38 @@ ul {
 
 
 /*DICCIONARIO*/  
+
+table {
+   width: 100%;
+   font-size: 0.7em;
+   margin-top: 10%;
+   background-image: url(./Imágenes/nn.png);
+   background-size: 90%;
+   opacity: 0.6;
+   border-spacing: 0;
+   
+  
+}
+
+table:hover {
+    opacity: 1;
+    background-image: none;
+}
+
+tr, th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    
+    
+
+
+}
+
+#tabledata {
+    padding-top: 9%;
+}
 
 
 /*FOOTER*/   
@@ -162,11 +206,8 @@ footer {
     bottom: 0;
     top: 99%;
 
-    
-    
-
-    
 }
+
 #footerletra {
     color: pink;
 }
