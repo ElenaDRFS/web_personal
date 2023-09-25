@@ -245,7 +245,7 @@ tr, th, td {
 }
 footer {
     font-size: small;
-    padding-top: 50px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     margin-top: auto;
@@ -264,16 +264,163 @@ footer {
 }
 
 
-/* ESTO ES PARA EL MEDIA QUERIES DE PANTALLA GRANDE
-#section-audios {
-    background-color: #D4C5E2;
-    border-radius: 10%;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 1.5%;
-    margin-top: 5%;
-    flex-wrap: wrap;
+/*MEDIA QUERIES*/
+
+@media (min-width:381px) and (max-width:445px){
+
+    #section-audios {
+        background-color: #D4C5E2;
+        border-radius: 10%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 1.5%;
+        margin-top: 5%;
+        flex-wrap: wrap;
+    }
+
+
+    #section-media {
+        text-align: center;
+        background-color: #D4C5E2;  
+        height: 100%;      
+        
+    }
+
+    .image {
+        width: auto;
+        height: 150px;
+
+    }
+    
+    .video {
+        width: auto;
+        height: 100px;    
+        
+    }
+ }
+
+ @media (min-width:446px) { 
+
+    footer {
+        font-size:small;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+        margin-top: auto;
+        justify-content: space-around;
+         }   
+
     
 
+    #pie {
+        width: 80px;         
+    
+    }
 
-} */
+    #footer_list {
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    #section-audios {
+        background-color: #D4C5E2;
+        border-radius: 10%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 1.5%;
+        margin-top: 5%;
+        flex-wrap: wrap;
+    }
+
+
+    #section-media {
+        text-align: center;
+        background-color: #D4C5E2;  
+        height: 100%;      
+        
+    }
+
+    .image {
+        width: auto;
+        height: 150px;
+
+    }
+    
+    .video {
+        width: auto;
+        height: 100px;    
+        
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 100%;
+        margin-top: 2%;
+        background-color: white;
+        position: sticky;
+        top:10px;
+     }
+
+    #Moonnight {
+        width: 50%;
+        height: 100%;
+    }
+
+
+    h3 {
+        font-size:medium;
+    }
+
+    aside{
+        float: right;
+        margin: 0;
+        box-sizing:border-box;
+    
+    
+    }
+    #elena {
+        height: 250px;
+        width: 200px;
+        
+    }
+
+    #me {
+        float: left;
+    }
+
+   #manitas {
+    width: 80%;
+    margin-left: 10%;
+   }
+
+   table {
+        width: 80%;
+        height: 300px;
+        margin-left: 10%;
+        background-image: none;
+        
+
+   }
+
+   th {
+    padding-top: 2%;
+    background-color: #e8d0ff;
+    text-align: center;
+    
+   }
+
+   td {
+    padding-top: 2%;
+    text-align: center;
+   }
+
+   #tabledata {
+
+    padding-top: 5%;
+    
+   }
+
+}
